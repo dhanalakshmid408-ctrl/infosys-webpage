@@ -91,12 +91,37 @@ p
  cursor: pointer;
 }
 
-@media (max-width: 768px)
+@media (max-width:768px)
 {
+  .header
+  {
+    justify-content: flex-start;
+    padding: 15px;
+  }
+  .left-section
+  {
+    position: static;
+    gap: 12px;
+  }
+  .menu
+  {
+    width: 42px;
+    height: 42px;
+    font-size: 20px;
+    flex-shrink: 0;
+  }
+  .logo
+  {
+    font-size: 28px;
+    letter-spacing: -1px;
+  }
+  .navigation
+  {
+    display: none;
+  }
   p
   {
     font-size: 42px;
+    margin: 150px 15px 0;
   }
 }
-
-
