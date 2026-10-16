@@ -1,0 +1,94 @@
+body
+{
+  margin: 0;
+  padding: 0;
+  background-image: linear-gradient(
+    rgba(0,20,45,0.45),
+    rgba(0,20,45,0.45)),
+    url("./mountain..jpg");
+
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  min-height: 100vh;
+}
+p
+{
+    color: white;
+    font-size: 100px;
+    font-family: arial,sans-serif;
+    font-weight: normal;
+    text-align: center;
+    margin-top: 180px;
+}
+.header
+{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 25px 30px;
+  position: relative;
+}
+
+.left-section
+{
+  display: flex;
+  align-items: center;
+  gap: 35px;
+  position: absolute;
+  left: 30px;
+}
+
+.menu
+{
+  background-color: white;
+  color: #171747;
+  width: 63px;
+  height: 63px;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 26px;
+  cursor: pointer;
+}
+
+.logo
+{
+  color: white;
+  font-family: arial,sans-serif;
+  font-size: 42px;
+  font-weight: normal;
+  letter-spacing: -2px;
+  text-transform: none;
+}
+
+.navigation
+{
+  display: flex;
+  align-items: center;
+  gap: 35px;
+  background-color: #c5c8cc;
+  padding: 14px 35px;
+  border-radius: 40px;
+ 
+}
+
+.navigation a
+{
+  color: #171747;
+  text-decoration: none;
+  font-family: arial,sans-serif;
+  font-size: 20px;
+  white-space: nowrap;
+}
+
+.navigation a:hover
+{
+ color: #007cc3;
+ text-decoration: underline;
+ text-underline-offset: 6px;
+ cursor: pointer;
+}
+
+
